@@ -23,8 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         Tune.getInstance().setReferralSources(this);
         Tune.getInstance().setAndroidId(Secure.getString(getContentResolver(), Secure.ANDROID_ID));
-        String deviceId = ((TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE)).getDeviceId();
-        Tune.getInstance().setDeviceId(deviceId);
+
         try {
             WifiManager wm = (WifiManager) getSystemService(Context.WIFI_SERVICE);
             Tune.getInstance().setMacAddress(wm.getConnectionInfo().getMacAddress());
