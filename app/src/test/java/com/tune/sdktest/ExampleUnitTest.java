@@ -1,4 +1,4 @@
-package com.ronald.sdktest;
+package com.tune.sdktest;
 
 import org.junit.Test;
 

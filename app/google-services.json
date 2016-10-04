@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "570892926234",
+    "project_id": "default-demo-app-e9668"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570892926234:android:a719aa13582ef39b",
+        "android_client_info": {
+          "package_name": "com.tune.sdktest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnHfXnq9P2aMkhkBoQwjkgMSFvEXJTWno"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -4,7 +4,7 @@ android {
     compileSdkVersion 24
     buildToolsVersion "24.0.2"
     defaultConfig {
-        applicationId "com.ronald.sdktest"
+        applicationId "com.tune.sdktest"
         minSdkVersion 15
         targetSdkVersion 24
         versionCode 1
@@ -27,7 +27,8 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.2.1'
     compile 'com.tune:tune-marketing-console-sdk:4.7.0'
     compile 'com.google.android.gms:play-services:9.6.1'
+    compile 'com.google.android.gms:play-services-gcm:9.6.1'
     testCompile 'junit:junit:4.12'
 }
 
-
+apply plugin: 'com.google.gms.google-services'
