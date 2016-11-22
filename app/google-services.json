@@ -1,20 +1,27 @@
 {
   "project_info": {
-    "project_number": "570892926234",
-    "project_id": "default-demo-app-e9668"
+    "project_number": "139959513267",
+    "firebase_url": "https://comronsdktest.firebaseio.com",
+    "project_id": "comronsdktest",
+    "storage_bucket": "comronsdktest.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:570892926234:android:a719aa13582ef39b",
+        "mobilesdk_app_id": "1:139959513267:android:a3577ddeb76a0a92",
         "android_client_info": {
-          "package_name": "com.tune.sdktest"
+          "package_name": "com.ron.sdktest"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "139959513267-tavkvneq63158m83i3riiuo5jfa73ohm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyDnHfXnq9P2aMkhkBoQwjkgMSFvEXJTWno"
+          "current_key": "AIzaSyAgpRhfv0w3n1Yd3rTlRLWegYJq0QTEPi4"
         }
       ],
       "services": {
@@ -26,7 +33,7 @@
           "other_platform_oauth_client": []
         },
         "ads_service": {
-          "status": 1
+          "status": 2
         }
       }
     }

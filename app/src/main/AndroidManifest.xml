@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.tune.sdktest">
+    package="com.ron.sdktest">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
-    <permission android:name="com.tune.sdktest.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
-    <uses-permission android:name="com.tune.sdktest.permission.C2D_MESSAGE"/>
+    <permission android:name="com.ron.sdktest.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.ron.sdktest.permission.C2D_MESSAGE"/>
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
 
 
     <application
-        android:name="com.tune.sdktest.MyApplication"
+        android:name="com.ron.sdktest.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -28,7 +28,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>-->
-        <activity android:name="com.tune.sdktest.Splash">
+        <activity android:name="com.ron.sdktest.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -36,7 +36,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.tune.sdktest.MainActivity" />
+        <activity android:name="com.ron.sdktest.MainActivity" />
 
         <receiver android:name="com.tune.TuneTracker">
             <intent-filter>
@@ -54,7 +54,7 @@
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="com.tune.sdktest" />
+                <category android:name="com.ron.sdktest" />
                 <!-- To support pre-4.4 KitKat devices -->
                 <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
             </intent-filter>

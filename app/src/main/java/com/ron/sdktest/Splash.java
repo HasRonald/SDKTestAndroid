@@ -1,4 +1,4 @@
-package com.tune.sdktest;
+package com.ron.sdktest;
 
 import android.content.Intent;
 import android.os.Handler;
